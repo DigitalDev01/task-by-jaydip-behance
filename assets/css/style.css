@@ -1,0 +1,154 @@
+body {
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, rgb(205, 227, 239));
+  background-attachment: fixed;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.txt {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.box-section {
+  height: 500px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(109, 240, 238, 0.534);
+}
+
+.nav-actions {
+  gap: 8px;
+}
+.btn-contact {
+  background: #ffffff;
+  color: #000 !important;
+  width: 130px;
+  height: 40px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.btn-contact:hover {
+  background: #f5f5f5;
+}
+
+.btn-schedule {
+  background: linear-gradient(90deg, #f26b2b, #ff8c42);
+  color: #fff !important;
+  border-radius: 30px;
+  padding: 10px 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.hero-section {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+  position: relative;
+}
+
+.btn-review {
+  position: absolute;
+  right: 293px;
+  top: -70px;
+}
+
+.confort {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(68, 68, 175);
+  display: inline;
+}
+.Solution{
+  font-weight:800;
+  color: #000;
+  font-size: 50px;
+}
+.user {
+  border: 1px solid black;
+  height: 40px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 205px;
+  top: -60px;
+}
+.project{
+  position: absolute;
+  left: 580px;
+  top: -25px;
+}
+
+@media (max-width: 991px) {
+
+  .confort,
+  .Solution {
+    font-size: 42px;
+  }
+
+  .user {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -45px;
+  }
+
+  .project {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .confort,
+  .Solution {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .user {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .project {
+    position: static;
+    transform: none;
+    margin-top: 8px;
+  }
+  .row {
+    gap: 10px;
+  }
+}
+ svg {
+   width: 100%;
+   height: 100%;
+   display: block;
+ }
