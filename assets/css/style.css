@@ -71,8 +71,10 @@ body {
 
 .btn-review {
   position: absolute;
-  right: 293px;
+  right: 355px;
   top: -70px;
+  backdrop-filter: calc(10px);
+  background-color: #eaeaea;
 }
 
 .confort {
@@ -90,16 +92,17 @@ body {
 }
 
 .user {
-  border: 1px solid black;
+  
   height: 40px;
   width: 150px;
   border-radius: 50px;
-  background-color: white;
+  backdrop-filter: calc(10px);
+  background-color: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 205px;
+  left: 270px;
   top: -60px;
 }
 
@@ -265,3 +268,19 @@ svg {
      margin-top: 20px;
    }
  }
+
+ /* image hero section */
+ .design-logo{
+  height: auto;
+  width: 70px;
+  display: flex;
+  align-content: center;
+ }
+ #img-logo{
+  align-items: anchor-center;
+ }
+
+.parker-img{
+  margin-top: 60px;
+  border-radius: 50px;
+}
