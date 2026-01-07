@@ -286,15 +286,13 @@ svg {
   border-radius: 50px;
 }
 
-
-
 /* gridview img */
 .grid-img{
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
   padding: 10px;
-  
+ 
 }
 
 .grid-img div {
@@ -302,11 +300,11 @@ svg {
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 10px;
-    border-radius: 50px;
+    
   }
 
   .grid-img div {
-    background-color: #f1f1f1;
+
     color: #000;
     padding: 20px;
     font-size: 24px;
@@ -327,16 +325,20 @@ svg {
   @media (min-width: 768px) {
     .i1 {
       grid-area: i1;
+      width: auto;
       background-size: cover;
+    
     }
 
     .i2 {
       grid-area: i2;
+      width: auto;
       background-size: cover;
     }
 
     .i3 {
       grid-area: i3;
+      width: auto;
       background-size: cover;
     }
   }
@@ -347,4 +349,13 @@ svg {
       display: flex;
       overflow-x: scroll;
     }
+  }
+  .i1,img{
+      border-radius: 50px;
+  }
+  .i2,img{
+      border-radius: 50px;
+  }
+  .i3,img{
+      border-radius: 50px;
   }
