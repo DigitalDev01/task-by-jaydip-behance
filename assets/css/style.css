@@ -2,15 +2,14 @@ body {
   font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: auto;
-  background: linear-gradient(180deg, rgb(205, 227, 239));
   background-attachment: fixed;
 }
-
 .navbar-brand img {
   max-height: 40px;
   margin-right: 10px;
+}
+.bg-color{
+ background: linear-gradient(180deg, rgb(205, 227, 239));
 }
 
 .txt {
@@ -30,6 +29,9 @@ body {
 
 .nav-actions {
   gap: 8px;
+}
+.img-section{
+  padding: 50px;
 }
 .btn-contact {
   background: #ffffff;
@@ -80,11 +82,13 @@ body {
   color: rgb(68, 68, 175);
   display: inline;
 }
-.Solution{
-  font-weight:800;
+
+.Solution {
+  font-weight: 800;
   color: #000;
   font-size: 50px;
 }
+
 .user {
   border: 1px solid black;
   height: 40px;
@@ -98,7 +102,8 @@ body {
   left: 205px;
   top: -60px;
 }
-.project{
+
+.project {
   position: absolute;
   left: 580px;
   top: -25px;
@@ -143,12 +148,120 @@ body {
     transform: none;
     margin-top: 8px;
   }
+
   .row {
     gap: 10px;
   }
 }
- svg {
-   width: 100%;
-   height: 100%;
-   display: block;
+
+svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/*hero section */
+
+ .case-study {
+   background-color: #f4f6f8;
+   padding: 80px 0;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .case-study::after {
+   position: absolute;
+   right: -150px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 500px;
+   height: 500px;
+   background: url('https://cdn-icons-png.flaticon.com/512/869/869869.png') no-repeat center;
+   background-size: contain;
+   opacity: 0.05;
+ }
+
+ .case-title {
+   font-size: 32px;
+   font-weight: 100;
+   color: #333;
+   line-height: 1.4;
+ }
+
+ .case-title strong {
+   font-weight: 700;
+ }
+
+ .author {
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+ }
+
+ .author img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 15px;
+ }
+
+ .author h6 {
+   margin: 0;
+   font-weight: 600;
+ }
+
+ .author small {
+   color: #777;
+ }
+
+ .case-desc {
+   font-size: 17px;
+   color: #777;
+   max-width: 300px;
+   margin-left: auto;
+ }
+
+ .meta-box {
+   padding-top: 30px;
+   margin-top: 60px;
+ }
+
+ .meta-label {
+   font-size: 14px;
+   color: #8a8a8a;
+   margin-bottom: 4px;
+ }
+
+ .meta-value {
+   font-weight: 600;
+    color: #8a8a8a;
+   font-size: 14px;
+ }
+
+ .center-logo {
+   width: 64px;
+   height: 64px;
+   margin: 0 auto;
+   background: #fff;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .center-logo img {
+   width: 34px;
+   height: auto;
+ }
+
+ @media (max-width: 768px) {
+   .case-title {
+     font-size: 26px;
+   }
+
+   .case-desc {
+     margin-left: 0;
+     margin-top: 20px;
+   }
  }
