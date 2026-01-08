@@ -344,7 +344,7 @@ svg {
   }
 
   @media screen and (max-width: 768px) {
-    .container {
+    .grid-img {
       display: flex;
       display: flex;
       overflow-x: scroll;
@@ -359,3 +359,39 @@ svg {
   .i3,img{
       border-radius: 50px;
   }
+  .shado-img{
+    width: 100%;
+    position: relative;
+  }
+  .shado{
+    height: 750px;
+  }
+  .parent-section{
+    height: 180px;
+    width: 70%;
+    backdrop-filter: blur(10px);
+    margin-left: 205px;
+    border-radius: 30px;
+    position: absolute;
+    top: 490px;
+    background-color: #f3e8e859;
+    opacity: 10px;
+  }
+  .parker-logo {
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    display: flex;
+  }
+  .paragraph{
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 230px;
+  }
+.comfort-section{
+  background-color: #d1d0d0;
+  margin-top: 30px;
+}
+  
